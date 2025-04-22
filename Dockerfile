@@ -1,4 +1,4 @@
-FROM python:3.11
+FROM node:11
 WORKDIR /app
 COPY . .
 CMD ["python", "main.py"]
